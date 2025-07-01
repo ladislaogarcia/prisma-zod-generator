@@ -43,7 +43,6 @@
     "url": "https://github.com/ladislaogarcia/prisma-zod-generator/issues"
   },
   "homepage": "https://github.com/ladislaogarcia/prisma-zod-generator#readme",
-  "private": true,
   "engines": {
     "node": ">=16.13.0",
     "npm": ">=8.1.0"
