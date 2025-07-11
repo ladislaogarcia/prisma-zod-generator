@@ -36,13 +36,7 @@ Automatically generate [Zod](https://github.com/colinhacks/zod) schemas from you
 Using npm:
 
 ```bash
- npm install prisma-zod-generator
-```
-
-Using yarn:
-
-```bash
- yarn add prisma-zod-generator
+ npm install @ladislaogarcia/prisma-zod-generator
 ```
 
 # Usage
@@ -53,7 +47,7 @@ Using yarn:
 
 ```prisma
 generator zod {
-  provider = "prisma-zod-generator"
+  provider = "@ladislaogarcia/prisma-zod-generator"
 }
 ```
 
