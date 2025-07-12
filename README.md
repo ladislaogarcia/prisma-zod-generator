@@ -1,17 +1,12 @@
-# Prisma Zod Generator
+# Prisma Zod 
 
-[![npm version](https://badge.fury.io/js/prisma-zod-generator.svg)](https://badge.fury.io/js/prisma-zod-generator)
-[![npm](https://img.shields.io/npm/dt/prisma-zod-generator.svg)](https://www.npmjs.com/package/prisma-zod-generator)
-[![HitCount](https://hits.dwyl.com/ladislaogarcia/prisma-zod-generator.svg?style=flat)](http://hits.dwyl.com/ladislaogarcia/prisma-zod-generator)
+> That generator is a fork from ["prisma-zod-generator"](https://github.com/omar-dulaimi/prisma-zod-generator) but with the added value of working in Prisma ORM versions 5 and 6. The related forked generator only works fine until Prisma ORM version 4.
+
+Thanks to [Omar Dulaimi](https://github.com/omar-dulaimi/) for sharing.
+
 [![npm](https://img.shields.io/npm/l/prisma-zod-generator.svg)](LICENSE)
 
 Automatically generate [Zod](https://github.com/colinhacks/zod) schemas from your [Prisma](https://github.com/prisma/prisma) Schema, and use them to validate your API endpoints or any other use you have. Updates every time `npx prisma generate` runs.
-
-<p align="center">
-  <a href="https://www.buymeacoffee.com/ladislaogarcia">
-    <img src="https://cdn.buymeacoffee.com/buttons/default-black.png" alt="Buy Me A Coffee" height="41" width="174">
-  </a>
-</p>
 
 ## Table of Contents
 
@@ -22,6 +17,10 @@ Automatically generate [Zod](https://github.com/colinhacks/zod) schemas from you
 - [Additional Options](#additional-options)
 
 # Supported Prisma Versions
+
+### Prisma 6
+
+### Prisma 5
 
 ### Prisma 4
 
@@ -47,7 +46,7 @@ Using npm:
 
 ```prisma
 generator zod {
-  provider = "@ladislaogarcia/prisma-zod-generator"
+  provider = "prisma-zod-generator"
 }
 ```
 
